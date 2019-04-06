@@ -21,3 +21,16 @@ table th{
 	text-align: center!important;
 
 }
+
+table{
+	display: inline-block;
+}
+
+table+img{
+	display: inline-block;
+	max-width: 50%;
+	margin-bottom: 0!important;
+}
+.ti{
+	margin: 0 auto
+}
