@@ -1,0 +1,23 @@
+header{
+	margin-bottom: 10px;
+	background-color: #343a40;
+}
+
+.sas{
+    text-align: right
+}
+
+.col p{
+	text-align: justify;
+}
+
+.col img{
+	width: 75%;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px
+}
+table th{
+	text-align: center!important;
+
+}
