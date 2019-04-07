@@ -1,5 +1,5 @@
 header{
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 	background-color: #343a40;
 }
 
@@ -33,4 +33,11 @@ table+img{
 }
 .ti{
 	margin: 0 auto
+}
+
+.qq img{
+	width: 35%;
+	float: left;
+	margin-right: 19px;
+	margin-bottom: 19px
 }
