@@ -48,20 +48,20 @@ table+img{
 	margin-bottom: 19px
 }
 .ss{
-	
+
 	display: inline-block;
 	text-align: right;
 	float: right;
 	font-size: 45px;
 }
 .navbar-brand{
-	max-width: 100px;
+	max-width: 120px;
 	float: left; 	
 }
 
 .jumbotron{
 	position: absolute;
-	top: 40%;
+	top: 30%;
 	left: 50%;
 	margin-left: -240px;
 	z-index: 3;
@@ -69,8 +69,8 @@ table+img{
 
 #overlay{
 	position: absolute;
-	min-width: 100vw;
-	min-height: 100vh;
+	min-width: 150vw;
+	min-height: 150vh;
 	z-index: 2;
 	background: rgba(0, 0, 0, 0.99)	
 }
