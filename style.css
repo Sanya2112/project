@@ -1,6 +1,15 @@
+body{
+	position: relative;
+	overflow: hidden;
+}
+
 header{
 	margin-bottom: 50px;
-	background-color: #343a40;
+	background-color:#343a40;
+	
+}
+nav{
+	align-items: center;
 }
 
 .sas{
@@ -14,8 +23,6 @@ header{
 .col img{
 	width: 75%;
 	float: left;
-	margin-right: 15px;
-	margin-bottom: 15px
 }
 table th{
 	text-align: center!important;
@@ -42,5 +49,29 @@ table+img{
 	margin-bottom: 19px
 }
 .ss{
-	width: 10%;
+	
+	display: inline-block;
+	text-align: right;
+	float: right;
+	font-size: 45px;
+}
+.navbar-brand{
+	max-width: 100px;
+	float: left; 	
+}
+
+.jumbotron{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin-left: -240px;
+	z-index: 3;
+}
+
+#overlay{
+	position: absolute;
+	min-width: 100vw;
+	min-height: 100vh;
+	z-index: 2;
+	background: rgba(0, 0, 0, 0.99)
 }
