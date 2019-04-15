@@ -59,12 +59,14 @@ table+img{
 	float: left; 	
 }
 
-.jumbotron{
-	position: absolute;
-	top: 30%;
-	left: 50%;
-	margin-left: -240px;
-	z-index: 3;
+.jumbotron {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -330px;
+    z-index: 3;
+    min-width: 50%!important;
+    text-align: center
 }
 
 #overlay{
